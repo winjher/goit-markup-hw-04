@@ -315,10 +315,12 @@ footer .text-web{
     color: #4D5AE5;
     text-align: left;
     padding-top: 100px;
+    text-decoration: none;
 }
 footer .text-studio{
     /* background: #F4F4FD; */
     color: #F4F4FD;
     text-align: left;
     padding-top: 100px;
+    text-decoration: none;
 }
