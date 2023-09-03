@@ -286,7 +286,14 @@ h3{
     padding: 100px 120px 100px;
     text-align: center;
 }
-
+footer {
+    padding-top: 100px;
+    
+    width: 1440px;
+    height: 312px;
+    top: 2280px;
+    background-color: #2E2F42;
+}
 
 .text-footer{
     /* styleName: Body; */
