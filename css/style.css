@@ -288,39 +288,51 @@ h3{
 }
 
 
-.bg-foot{
-        /* styleName: Body; */
+.text-footer{
+    /* styleName: Body; */
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
+    color: #F4F4FD;
+
     width: 264px;
     height: 72px;
     top: 2420px;
-    padding-top: 100px;
-    color: #F4F4FD;
-    padding-left: 130px;
+    left: 156px;
+    padding-left: 100px;
+
 }
-footer{
-    padding-top: 100px;
-    width: 1440px;
-    height: 312px;
-    top: 2280px;
-    background-color: #2E2F42;
-}
-footer .text-web{
+
+.text-web {
     /* background: #4D5AE5; */
     color: #4D5AE5;
     text-align: left;
-   
+    
+    padding-left: 100px;
     text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
 }
-footer .text-studio{
+
+.text-studio {
     /* background: #F4F4FD; */
     color: #F4F4FD;
     text-align: left;
-    padding-top: 100px;
     text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+    
 }
