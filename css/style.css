@@ -445,14 +445,13 @@ footer{
     border-radius: 50px 50px;
 }
 
-.text-footer,.social-media-list-footer
-{
-    display: flex;
-   
-}
+
 
 .social-media-list-footer{
     display: flex;
     margin-left: 500px;
 
+}
+.container.container-footer {
+    display: flex;
 }
