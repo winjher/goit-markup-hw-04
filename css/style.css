@@ -50,6 +50,11 @@ body{
     font-family: Roboto;
 }
 
+/* HW4 */
+img{
+    background-image: url('/images/people-office.jpg');
+}
+
 a {
     text-decoration: none;
 }
@@ -376,7 +381,7 @@ footer{
 }
 
 .ourteam-work{
-    padding-bottom: 32px;
+    /* padding-bottom: 32px; */
     padding-top: 8px;
 } 
 
@@ -424,10 +429,30 @@ footer{
     padding-top: 8px;
     padding-bottom: 8px;
 }
+.features-images{
+    background-color: var(--color-cloud);
+    text-align: center;
+    padding: 40px;
+    border-radius: 4px;
+    
+}
+
 
 .social-media-link{
     list-style: none;
     display: inline-flex;
-    margin-bottom: auto;
+    margin: 10px;
+    border-radius: 50px 50px;
 }
 
+.text-footer,.social-media-list-footer
+{
+    display: flex;
+   
+}
+
+.social-media-list-footer{
+    display: flex;
+    margin-left: 500px;
+
+}
