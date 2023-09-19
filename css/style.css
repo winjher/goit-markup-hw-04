@@ -50,6 +50,10 @@ body{
     font-family: Roboto;
 }
 
+/* HW4 */
+img{
+    background-image: url('/images/people-office.jpg');
+}
 a {
     text-decoration: none;
 }
