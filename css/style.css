@@ -376,7 +376,7 @@ footer{
 }
 
 .ourteam-work{
-    padding-bottom: 32px;
+    /* padding-bottom: 32px; */
     padding-top: 8px;
 } 
 
@@ -428,6 +428,7 @@ footer{
 .social-media-link{
     list-style: none;
     display: inline-flex;
-    margin-bottom: auto;
+    margin: 10px;
+    border-radius: 50px 50px;
 }
 
