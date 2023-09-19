@@ -446,12 +446,17 @@ footer{
 }
 
 
-
+.container,
 .social-media-list-footer{
     display: flex;
-    margin-left: 500px;
+    margin-left: 300px;
+    
 
 }
-.container.container-footer {
+.container-footer {
     display: flex;
+    
+}
+footer {
+    display: block;
 }
