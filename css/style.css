@@ -424,11 +424,15 @@ footer{
     padding-top: 8px;
     padding-bottom: 8px;
 }
+.features-images{
+    background-color: var(--color-slate);
+}
 
 .social-media-link{
     list-style: none;
     display: inline-flex;
     margin: 10px;
+
     border-radius: 50px 50px;
 }
 
