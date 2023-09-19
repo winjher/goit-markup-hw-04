@@ -464,3 +464,14 @@ svg {
     margin-left: 500px;
 
 }
+
+svg {
+   fill:currentColor;
+   display:inline-block;
+   width:22px;
+   height:22px;
+   vertical-align:middle;
+   margin-right:20px;
+}
+
+
