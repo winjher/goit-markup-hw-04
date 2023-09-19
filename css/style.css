@@ -444,12 +444,15 @@ footer{
     margin: 10px;
     border-radius: 50px 50px;
 }
-.container-footer,.social-media-list-footer
+
+.text-footer,.social-media-list-footer
 {
     display: flex;
    
 }
 
 .social-media-list-footer{
-    margin-left: 50px;
+    display: flex;
+    margin-left: 500px;
+
 }
