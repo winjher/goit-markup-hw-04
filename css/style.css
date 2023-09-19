@@ -425,5 +425,9 @@ footer{
     padding-bottom: 8px;
 }
 
-
+.social-media-link{
+    list-style: none;
+    display: inline-flex;
+    margin-bottom: auto;
+}
 
