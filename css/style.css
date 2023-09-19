@@ -54,6 +54,7 @@ body{
 img{
     background-image: url('/images/people-office.jpg');
 }
+
 a {
     text-decoration: none;
 }
@@ -429,8 +430,13 @@ footer{
     padding-bottom: 8px;
 }
 .features-images{
-    background-color: var(--color-slate);
+    background-color: var(--color-cloud);
+    text-align: center;
+    padding: 40px;
+    border-radius: 4px;
+    
 }
+
 
 .social-media-link{
     list-style: none;
@@ -439,4 +445,7 @@ footer{
 
     border-radius: 50px 50px;
 }
-
+.container-footer,.social-media-list-footer
+{
+    display: inline-flex;
+}
