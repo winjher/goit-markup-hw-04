@@ -442,10 +442,14 @@ footer{
     list-style: none;
     display: inline-flex;
     margin: 10px;
-
     border-radius: 50px 50px;
 }
 .container-footer,.social-media-list-footer
 {
-    display: inline-flex;
+    display: flex;
+   
+}
+
+.social-media-list-footer{
+    margin-left: 50px;
 }
