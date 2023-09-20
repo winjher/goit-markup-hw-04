@@ -462,7 +462,7 @@ svg {
     width:22px;
     height:22px;
     vertical-align:middle;
-    text-align : center;
+    margin: 40px;
  }
  .social-media-text{
     margin: 8px;
@@ -492,7 +492,6 @@ svg {
     display: flex;
     margin-left: 240px;
     list-style: none;
-    margin: 40px;
     gap: 40px;
  }
 
