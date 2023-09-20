@@ -498,15 +498,13 @@ svg {
  }
 
 .client-link-item{
-    margin-left: 200px;
-    margin-right: auto;
     border-radius: 4px;
     border: 1px solid var(--color-navyblue);
  }
  
  .client-link-item:hover{
     border: 1px solid var(--color-ocean);
-    
+    cursor: pointer;
  }
 
         
