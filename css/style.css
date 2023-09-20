@@ -497,7 +497,7 @@ svg {
     gap: 40px;
  }
 
-.client-list-item{
+.client-link-item{
     margin-left: 200px;
     margin-right: auto;
     border-radius: 4px;
