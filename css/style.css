@@ -458,14 +458,10 @@ footer, .text-footer {
 }
 svg {
     fill:var(--color-cloud);
-
     display:inline-block;
     width:22px;
     height:22px;
     vertical-align:middle;
-    margin-right:20px;
- 
- 
     text-align : center;
  }
  .social-media-text{
@@ -476,7 +472,7 @@ svg {
  .social-media-link{
     background-color: var(--color-iris);
     border-radius: 50px 50px;
-    margin: 8px 0px 0px8px;
+    
  }
 
  .features-images{
@@ -494,7 +490,7 @@ svg {
 
  .client-list-item{
     display: flex;
-    margin-left: 140px;
+    margin-left: 240px;
     list-style: none;
     gap: 40px;
  }
