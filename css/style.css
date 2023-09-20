@@ -472,9 +472,11 @@ svg {
     margin: 8px;
 
  }
+
  .social-media-link{
     background-color: var(--color-iris);
     border-radius: 50px 50px;
+    margin: 8px 0px 0px8px;
  }
 
  .features-images{
@@ -492,7 +494,7 @@ svg {
 
  .client-list-item{
     display: flex;
-    margin: 40px;
+    margin-left: 140px;
     list-style: none;
     gap: 40px;
  }
