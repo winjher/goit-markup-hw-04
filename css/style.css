@@ -495,10 +495,11 @@ svg {
     margin: 40px;
     list-style: none;
     gap: 40px;
-    
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 4px;
  }
  .client-link-item{
-    
-    border: 2px solid var(--color-navyblue);
+    border-radius: 4px;
+    border: 1px solid var(--color-navyblue);
  }
