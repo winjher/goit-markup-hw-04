@@ -453,16 +453,20 @@ svg {
     border-radius: 50px 50px;
 }
 
-.text-footer,.social-media-list-footer
-{
-    display: flex;
-   
-}
 
+.container,
 .social-media-list-footer{
     display: flex;
-    margin-left: 500px;
+    margin-left: 300px;
 
+}
+
+.container-footer {
+    display: flex;
+    
+}
+footer {
+    display: block;
 }
 
 svg {
