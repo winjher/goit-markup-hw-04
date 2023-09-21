@@ -151,9 +151,15 @@ address{
     color: var(--color-slate);
 }
 
+
 .main-hero{
-    background-color: var(--color-navyblue);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/people-office.jpg");
+    /* background-color: var(--color-navyblue); */
     text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .service-hero-title {
@@ -456,14 +462,14 @@ svg {
  .client-list-item{
     display: flex;
     list-style: none;
-    gap: 40px;
+    gap: 10px;
     border-radius: 4px;
     align-items: center;
     justify-content: center;
  }
 
 
-.client-link-item:hover{
+.client-link-item{
     fill: var(--color-ocean);
     cursor: pointer;
 }
@@ -476,6 +482,7 @@ svg {
     align-items: center;
     justify-content: center;
  }
+
  .client-link-item, .footer-link{
     justify-content: center;
     align-items: center;

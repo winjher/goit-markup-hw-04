@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" overflow="hidden" x="50%" y="50%">
     <defs>
         <symbol id="antenna" viewBox="0 0 64 64" fill="none">
@@ -42,21 +41,17 @@
             <path d="M139.422 42.644H137.289V44.7775H139.422V42.644Z" fill="#2E2F42"/>
         </symbol>
     </defs>
-     <svg x="50%" y="50%" width="258px" height="221px" overflow="visible"> 
-    <image x="-129px" y="-110.5px" width="258px" height="221px" xlink:href="http://images2.wikia.nocookie.net/__cb20110303182948/hogwartsrpg/images/9/95/KittenCareCat.png"/>
-  </svg>
 </svg>
 
-=======
-<svg xmlns="http://www.w3.org/2000/svg" overflow="hidden">
-<symbol id="antenna" viewBox="0 0 64 64" fill="none">
-<symbol>
-<symbol id="clock" viewBox="0 0 64 64" fill="none">
-<symbol>
-<symbol id="laptop" viewBox="0 0 64 64" fill="none">
-<symbol>
-<symbol id="people" viewBox="0 0 64 64" fill="none">
-<symbol>
+<!-- <svg xmlns="http://www.w3.org/2000/svg" overflow="hidden">
+<defs>
+    <symbol id="antenna" viewBox="0 0 64 64" fill="none">
+    <symbol>
+    <symbol id="clock" viewBox="0 0 64 64" fill="none">
+    <symbol>
+    <symbol id="laptop" viewBox="0 0 64 64" fill="none">
+    <symbol>
+    <symbol id="people" viewBox="0 0 64 64" fill="none">
+    <symbol>
 </defs>
-</svg>
->>>>>>> 38c278a38d6df0b4e1ab1b5a748d0f8aaab23d5c
+</svg> -->
