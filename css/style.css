@@ -471,7 +471,7 @@ svg {
 
  .social-media-link{
     background-color: var(--color-iris);
-    border-radius: 50px 50px;
+
     
  }
 
@@ -481,6 +481,7 @@ svg {
  }
  a, .footer-link{
     text-align: center;
+    border-radius: 50px 50px;
  }
 
  .icon-icon,.social-media-link{
