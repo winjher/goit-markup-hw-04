@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" overflow="hidden" x="50%" y="50%">
     <defs>
         <symbol id="antenna" viewBox="0 0 64 64" fill="none">
@@ -46,3 +47,16 @@
   </svg>
 </svg>
 
+=======
+<svg xmlns="http://www.w3.org/2000/svg" overflow="hidden">
+<symbol id="antenna" viewBox="0 0 64 64" fill="none">
+<symbol>
+<symbol id="clock" viewBox="0 0 64 64" fill="none">
+<symbol>
+<symbol id="laptop" viewBox="0 0 64 64" fill="none">
+<symbol>
+<symbol id="people" viewBox="0 0 64 64" fill="none">
+<symbol>
+</defs>
+</svg>
+>>>>>>> 38c278a38d6df0b4e1ab1b5a748d0f8aaab23d5c
