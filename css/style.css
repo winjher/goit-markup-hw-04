@@ -253,6 +253,10 @@ address{
     padding-top: 8px;
 }
 
+.section-gallery{
+    padding-bottom: 120px;
+}
+
 .our-team-name,
 .section-features-list{
     color:var(--color-navyblue);
@@ -314,26 +318,6 @@ footer{
 }
 
 
-/* HW3 */
-
-.ourteam-list{
-    margin-top: 80px;
-    margin-right: 0px;
-    margin-bottom: 80px;
-    margin-left: 0px;
-}
-
-/* HW3  */
-/*
-.ourteam-name{
-    padding: 24px 0px 0px 0px;
-   
-}
-.ourteam-work{
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-*/
 .our-team-name{
     padding-top: 32px;
 }
@@ -346,55 +330,51 @@ footer{
 /* HW3 card container*/
 .card{
     background-color: var(--color-white);
-    border: 1px solid #E7E9FC;
+    border: 1px solid var(--color-cornflower);
     border-radius: 0px 0px 8px 8px;
     text-align: center;
 }
 
-.services-filter-list{
+/* portfolio */
+.filter-list-item{
     gap: 20px;
     margin: 40px;
     padding-left: 250px;
 }
 
-.section-application-list,
-.section-course-list,
-.section-webdesign-list{
+.application-list-item,
+.course-list-item,
+.webdesign-list-item{
     gap: 40px;
-    padding-top: 40px;
     padding-bottom: 40px;
 }
 
+.application-container,
+.course-container,
+.webdesign-container{
+    flex-wrap: wrap;
+}
 
-/* portfolio */
-.services-filter-list,
-.section-application-list,
-.section-course-list,
-.section-webdesign-list{
+.filter-list-item,
+.application-list-item,
+.course-list-item,
+.webdesign-list-item{
     display: flex;
     list-style: none;
-
 }
-
-
-.section-application-item,
-.section-course-item,
-.section-webdesign-item{
-    text-align: left;
-}
-
 
 .service-course{
     padding-top: 8px;
     padding-bottom: 8px;
 }
+
+
 /* HW4 */
 .features-images{
     background-color: var(--color-cloud);
     text-align: center;
     padding: 40px;
-    border-radius: 4px;
-    
+    border-radius: 4px;   
 }
 
 
