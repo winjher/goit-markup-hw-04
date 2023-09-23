@@ -171,7 +171,7 @@ address{
 
 .hero-image{
     width:1158px;
-    position: absolute;
+    
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -189,6 +189,7 @@ address{
     /* HW3 */
     width: 496px;
     margin-left: 330px;   
+    position: absolute;
 }
 
 .service-button-cta {
