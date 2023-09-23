@@ -65,75 +65,162 @@
                         <button type="button" class="filter-btn">Design</button>
                     </li>
                     <li class="services-filter-link">
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="main-header-nav">
+                <a href="https://winjher.github.io/goit-markup-hw-03/" class="logo-webstudio">
+                    STUDIO
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-list-item active">
+                        <a class="nav-menu-link" href="https://winjher.github.io/goit-markup-hw-03">Studio</a>
+                    </li>
+                    <li class="nav-menu-list-item active">
+                        <a class="nav-menu-link" href="./portfolio.html">Profile</a>
+                    </li>
+                    <li class="nav-menu-list-item active">
+                        <a class="nav-menu-link" href="/">Contacts</a>
+                    </li>
+                </ul>
+
+
+            </nav>
+            <address>
+                <ul class="address-menu">
+                    <li>
+                        <a href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a href="tel:110001111111" class="address-link">110001111111</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="section-btn">
+            <div class="container button-container">
+                <ul class="filter-list-item">
+                    <li class="services-filter-link actived">
+                        <button type="button" class="filter-btn active">All</button>
+                    </li>
+                    <li class="services-filter-link">
+                        <button type="button" class="filter-btn">Web Site</button>
+                    </li>
+                    <li class="services-filter-link">
+                        <button type="button" class="filter-btn">App</button>
+                    </li>
+                    <li class="services-filter-link">
+                        <button type="button" class="filter-btn">Design</button>
+                    </li>
+                    <li class="services-filter-link">
                         <button type="button" class="filter-btn">Marketing</button>
                     </li>
                 </ul>
             </div>
 
+
         </section>
         <section class="section-application">
             <div class="container application-container">
-                <ul class="application-list-item">
+                <ul class="section-application-list">
                     <li class="application-link-item">
-                        <img src="./images/banking.jpg" alt="" width="360">
-                        <h3 class="service-course">Banking App Interface Concept</h3>
+                        <div class="card-apps">
+                            <img src="./images/banking.jpg" alt="" width="360">
+                            <h3 class="service-course">Banking App Interface Concept</h3>
+                        </div>
+                       
                     </li>
                     <li class="application-link-item">
-                        <img src="./images/cashless.jpg" alt="" width="360">
-                        <h3 class="service-course">Cashless Payment</h3>
+                        <div class="card-apps">
+                            <img src="./images/cashless.jpg" alt="" width="360">
+                            <h3 class="service-course">Cashless Payment</h3>
+                        </div>
+                       
                     </li>
                     <li class="application-link-item">
-                        <img src="./images/meditation.jpg" alt="" width="360">
-                        <h3 class="service-course">Meditation App</h3>
+                        <div class="card-apps">
+                            <img src="./images/meditation.jpg" alt="" width="360">
+                            <h3 class="service-course">Meditation App</h3>
+                        </div>
+                       
                     </li>
-                </ul>
-            </div>
-
-        </section>
-        <section class="section-course">
-            <div class="container course-container">
-                <ul class="course-list-item">
+               
                     <li class="course-link-item">
-                        <img src="./images/taxiservice.jpg" alt="" width="360">
-                        <h3 class="service-course">Taxi Service</h3>
-                        <p>Marketing</p>
-                    </li>
-                    <li class="course-link-item">
-                        <img src="./images/screenillustration.jpg" alt="" width="360">
-                        <h3 class="service-course">Screen Illustrations</h3>
-                        <p>Design</p>
+                        <div class="card-apps">
+                            <img src="./images/taxiservice.jpg" alt="" width="360">
+                            <h3 class="service-course">Taxi Service</h3>
+                            <p class="service-offer">Marketing</p>
+                        </div>
+                       
                     </li>
                     <li class="course-link-item">
-                        <img src="./images/onlinecourses.jpg" alt="" width="360">
-                        <h3 class="service-course">Online Courses</h3>
-                        <p>Marketing</p>
+                        <div class="card-apps">
+                            <img src="./images/screenillustration.jpg" alt="" width="360">
+                            <h3 class="service-course">Screen Illustrations</h3>
+                            <p class="service-offer">Design</p>
+                        </div>
+                     
                     </li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="section-webdesign">
-            <div class="container webdesign-container">
-                <ul class="webdesign-list-item">
+                    <li class="course-link-item">
+                        <div class="card-apps">
+                            <img src="./images/onlinecourses.jpg" alt="" width="360">
+                            <h3 class="service-course">Online Courses</h3>
+                            <p class="service-offer">Marketing</p>
+                        </div>
+                       
+                    </li>
+               
                     <li class="webdesign-link-item">
-                        <img src="./images/story_concept.jpg" alt="Instagram Stories Concept" width="360">
-                        <h3 class="service-course">Instagram Stories Concept</h3>
-                        <p>Design</p>
+                        <div class="card-apps">
+                            <img src="./images/story_concept.jpg" alt="Instagram Stories Concept" width="360">
+                            <h3 class="service-course">Instagram Stories Concept</h3>
+                            <p class="service-offer">Design</p>
+                        </div>
+                       
                     </li>
                     <li class="webdesign-link-item">
-                        <img src="./images/organic_food.jpg" alt="Organic Food" width="360">
-                        <h3 class="service-course">Organic Food</h3>
-                        <p>Web Site</p>
+                        <div class="card-apps">
+                            <img src="./images/organic_food.jpg" alt="Organic Food" width="360">
+                            <h3 class="service-course">Organic Food</h3>
+                            <p class="service-offer">Web Site</p>
+                        </div>
+                       
                     </li>
                     <li class="webdesign-link-item">
-                        <img src="./images/fresh_coffee.jpg" alt="Fresh Coffee" width="360">
-                        <h3 class="service-course">Fresh Coffee</h3>
-                        <p>Web Site</p>
+                        <div class="card-apps">
+                            <img src="./images/fresh_coffee.jpg" alt="Fresh Coffee" width="360">
+                            <h3 class="service-course">Fresh Coffee</h3>
+                            <p class="service-offer">Web Site</p>
+                        </div>
+                     
                     </li>
                 </ul>
             </div>
         </section>
     </main>
+
     <footer class="section section-footer">
         <div class="container container-footer">
 
