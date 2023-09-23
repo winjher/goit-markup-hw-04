@@ -134,6 +134,18 @@ address{
     color: var(--color-ocean);
 }
 
+.nav-menu-link::after{
+    content:"";
+    height:4px;
+    width: 100%;
+    background-color: var(--color-ocean);
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+}
+
+
 .address-link:hover,
 .nav-menu-link:hover{
     color: var(--color-iris);
