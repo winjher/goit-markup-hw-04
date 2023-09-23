@@ -334,6 +334,13 @@ footer{
     text-align: center;
 }
 
+.card-apps{
+    background-color: var(--color-white);
+    border: 1px solid var(--color-cornflower);
+    text-align: left;
+   
+}
+
 /* portfolio */
 .filter-list-item{
     gap: 20px;
@@ -397,6 +404,7 @@ footer{
 
 
 /* HW4 */
+
 .features-images{
     background-color: var(--color-cloud);
     text-align: center;
