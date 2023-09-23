@@ -161,20 +161,20 @@ address{
 .address-link:hover {
     color: var(--color-slate);
 }
+
 .imagebackground{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/people-office.JPG');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    width:1158px;
+    
+    
 }
 
 .hero-image{
-    width:1158px;
     
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     /* background-color: var(--color-navyblue); */
     text-align: center;
   
@@ -188,8 +188,11 @@ address{
     color: var(--color-white);
     /* HW3 */
     width: 496px;
-    margin-left: 330px;   
+   /* margin-left: 330px;  */ 
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .service-button-cta {
@@ -201,6 +204,7 @@ address{
     border-radius: 4px;
     border: unset;
     margin: 40px;
+    position: absolute;
 }
 
 
