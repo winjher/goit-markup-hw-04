@@ -104,6 +104,8 @@ address{
 .logo-webstudio::before{
     content: "WEB";
     color: var(--color-iris);
+    height:4px;
+
 }
 
 .logo-webstudio{
@@ -129,7 +131,11 @@ address{
     color: var(--color-slate);    
 }
 
-.nav-menu-link:active{
+.active{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
     color: var(--color-ocean);
 }
 
@@ -140,9 +146,19 @@ address{
     background-color: var(--color-ocean);
     border-radius: 2px;
     position: absolute;
-    left: 0;
+    left: 0; 
     bottom: -25px;
 }
+
+
+.nav-menu-list-item:hover, 
+.nav-menu-link-item::after{
+    position: relative;
+    width: 100%;
+
+}
+
+
 
 
 .address-link:hover,
@@ -162,7 +178,7 @@ address{
     color: var(--color-slate);
 }
 
-.imagebackground{
+.imgbck{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/people-office.JPG');
     background-position: center;
     background-repeat: no-repeat;
@@ -193,18 +209,19 @@ address{
     color: var(--color-white);
     /* HW3 */
     width: 496px;
-
+}
+.centered {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(0%, -50%);
+    top: 25%;
+    left: 30%;
+    transform: translate(0%, 0%);
 
 }
 
 .service-button-cta {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 100%;
+    left: 25%;
     transform: translate(0%, -10%);
     background-color: var(--color-ocean);
     color: var(--color-white);
