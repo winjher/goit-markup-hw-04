@@ -360,10 +360,6 @@ footer{
 }
 
 
-.text-footer:hover{
-    color: var(--color-iris);  
-}
-
 .section-ourteam{
     background-color: var(--color-cloud);
 }
