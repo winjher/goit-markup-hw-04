@@ -190,9 +190,7 @@ address{
     width: 496px;
    /* margin-left: 330px;  */ 
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
 }
 
 .service-button-cta {
@@ -204,7 +202,7 @@ address{
     border-radius: 4px;
     border: unset;
     margin: 40px;
-    position: absolute;
+
 }
 
 
