@@ -419,7 +419,7 @@ footer{
 footer, .text-footer {
     display: block;
 }
-svg {
+svg,.footer-link {
     fill:var(--color-cloud);
     display:inline-block;
     width:22px;
