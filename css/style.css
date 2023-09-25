@@ -51,7 +51,6 @@ h6,ul {
 body{
     font-family: 'Opens Sans' ,san-serif;
     font-family: Roboto;
-    background-image: url('/images/people-office.jpg');
     min-width: 1558px;
 }
 
@@ -105,6 +104,8 @@ address{
 .logo-webstudio::before{
     content: "WEB";
     color: var(--color-iris);
+    height:4px;
+
 }
 
 .logo-webstudio{
@@ -130,9 +131,35 @@ address{
     color: var(--color-slate);    
 }
 
-.nav-menu-link:active{
+.active{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
     color: var(--color-ocean);
 }
+
+.nav-menu-link::after{
+    content:"";
+    height:4px;
+    width: 100%;
+    background-color: var(--color-ocean);
+    border-radius: 2px;
+    position: absolute;
+    left: 0; 
+    bottom: -25px;
+}
+
+
+.nav-menu-list-item:hover, 
+.nav-menu-link-item::after{
+    position: relative;
+    width: 100%;
+
+}
+
+
+
 
 .address-link:hover,
 .nav-menu-link:hover{
@@ -151,15 +178,27 @@ address{
     color: var(--color-slate);
 }
 
-
-.main-hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/people-office.jpg");
-    /* background-color: var(--color-navyblue); */
-    text-align: center;
+.imgbck{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/people-office.JPG');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    width:1158px;
+    
+    
+}
+
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/people-office.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width:1158px;
+    /* background-color: var(--color-navyblue); */
+    text-align: center;
+  
 }
 
 .service-hero-title {
@@ -170,10 +209,20 @@ address{
     color: var(--color-white);
     /* HW3 */
     width: 496px;
-    margin-left: 330px;   
+}
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(0%, 0%);
+
 }
 
 .service-button-cta {
+    position: absolute;
+    top: 100%;
+    left: 25%;
+    transform: translate(0%, -10%);
     background-color: var(--color-ocean);
     color: var(--color-white);
     height: 56px;
@@ -182,6 +231,8 @@ address{
     border-radius: 4px;
     border: unset;
     margin: 40px;
+
+    
 }
 
 
@@ -253,6 +304,10 @@ address{
     padding-top: 8px;
 }
 
+.section-gallery{
+    padding-bottom: 120px;
+}
+
 .our-team-name,
 .section-features-list{
     color:var(--color-navyblue);
@@ -305,35 +360,11 @@ footer{
 }
 
 
-.text-footer:hover{
-    color: var(--color-iris);  
-}
-
 .section-ourteam{
     background-color: var(--color-cloud);
 }
 
 
-/* HW3 */
-
-.ourteam-list{
-    margin-top: 80px;
-    margin-right: 0px;
-    margin-bottom: 80px;
-    margin-left: 0px;
-}
-
-/* HW3  */
-/*
-.ourteam-name{
-    padding: 24px 0px 0px 0px;
-   
-}
-.ourteam-work{
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-*/
 .our-team-name{
     padding-top: 32px;
 }
@@ -346,55 +377,87 @@ footer{
 /* HW3 card container*/
 .card{
     background-color: var(--color-white);
-    border: 1px solid #E7E9FC;
+    border: 1px solid var(--color-cornflower);
     border-radius: 0px 0px 8px 8px;
     text-align: center;
 }
 
-.services-filter-list{
+.card-apps{
+    background-color: var(--color-white);
+    border: 1px solid var(--color-cornflower);
+    text-align: left;
+   
+}
+
+/* portfolio */
+.filter-list-item{
     gap: 20px;
     margin: 40px;
     padding-left: 250px;
 }
 
-.section-application-list,
-.section-course-list,
-.section-webdesign-list{
-    gap: 40px;
-    padding-top: 40px;
+
+.section-application-list-item,
+.section-course-list-item,
+.section-webdesign-list-item{
+    gap: 20px;
     padding-bottom: 40px;
 }
 
 
-/* portfolio */
-.services-filter-list,
-.section-application-list,
-.section-course-list,
-.section-webdesign-list{
+.filter-list-item,
+.section-application-list{
+    flex-wrap: wrap;
     display: flex;
     list-style: none;
+    gap: 24px;
+   
 
-}
 
-
-.section-application-item,
-.section-course-item,
-.section-webdesign-item{
-    text-align: left;
 }
 
 
 .service-course{
-    padding-top: 8px;
-    padding-bottom: 8px;
+/* styleName: Header 3; */
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin: 16px;
+    padding-top: 16px;
 }
+
+
+
+
+.service-offer{
+    /* styleName: Body; */
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin: 16px;
+    padding-bottom: 16px;
+}
+
+
+.section-application-list{
+    padding-bottom: 120px;
+}
+
+
+
 /* HW4 */
+
 .features-images{
     background-color: var(--color-cloud);
     text-align: center;
     padding: 40px;
-    border-radius: 4px;
-    
+    border-radius: 4px;   
 }
 
 
