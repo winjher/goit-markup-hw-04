@@ -482,14 +482,14 @@ footer{
 footer, .text-footer {
     display: block;
 }
-svg,.footer-link {
+/* .footer-link {
     fill:var(--color-cloud);
     display:inline-block;
     width:22px;
     height:22px;
     vertical-align:middle;
     text-align : center;
- }
+ } */
 
  .social-media-text{
     margin: 8px;
@@ -521,7 +521,6 @@ svg,.footer-link {
     
  }
 
-
  .client-list-item{
     display: flex;
     list-style: none;
@@ -536,6 +535,7 @@ svg,.footer-link {
     fill: var(--color-ocean);
     cursor: pointer;
 }
+
 .client-link-item{
     border-radius: 4px;
     display: flex;
@@ -548,11 +548,24 @@ svg,.footer-link {
 
  .client-link-item, .footer-link{
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
  }
 
  .client-link-item:hover{
     border: 1px solid var(--color-ocean);
     cursor: pointer;
  }
+
+svg:hover {
+    fill: var(--color-ocean);
+    width:"104"; 
+    height:"56";
+  }
+  
+.logo-svg:hover .overlay {
+    opacity: 1;
+   
+  }
+.image{
+    fill: var(--color-ocean);
+  }
