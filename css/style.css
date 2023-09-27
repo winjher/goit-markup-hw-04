@@ -139,7 +139,7 @@ address{
     color: var(--color-ocean);
 }
 
-.nav-menu-link::after{
+.line::after{
     content:"";
     height:4px;
     width: 100%;
@@ -149,7 +149,6 @@ address{
     left: 0; 
     bottom: -25px;
 }
-
 
 .nav-menu-list-item:hover, 
 .nav-menu-link-item::after{
@@ -178,8 +177,8 @@ address{
     color: var(--color-slate);
 }
 
-.imgbck{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/people-office.JPG');
+/* .imgbck{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/people-office.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -187,10 +186,10 @@ address{
     width:1158px;
     
     
-}
+} */
 
 .hero-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/people-office.JPG');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
