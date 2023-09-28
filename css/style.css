@@ -189,15 +189,15 @@ address{
 } */
 
 .hero-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('images/people-office.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    width:1158px;
+    width:1440px;
     /* background-color: var(--color-navyblue); */
     text-align: center;
-  
+    position: relative;
 }
 
 .service-hero-title {
@@ -208,8 +208,13 @@ address{
     color: var(--color-white);
     /* HW3 */
     width: 496px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.centered {
+.hero-title {
     position: absolute;
     top: 25%;
     left: 30%;
