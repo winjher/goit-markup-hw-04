@@ -198,7 +198,7 @@ address{
     /* background-color: var(--color-navyblue); */
     text-align: center;
     position: relative;
-    padding-left:100px;
+    padding-left:0px;
 
 .service-hero-title {
     font-size: 56px;
@@ -216,7 +216,7 @@ address{
 }
 .hero-text{
     position: absolute;
-    top: 25%;
+    top: 50%;
     left: 30%;
     transform: translate(0%, 0%);
 
@@ -225,7 +225,7 @@ address{
 .service-button-cta {
     position: absolute;
     top: 100%;
-    left: 25%;
+    left: 50%;
     transform: translate(0%, -10%);
     background-color: var(--color-ocean);
     color: var(--color-white);
