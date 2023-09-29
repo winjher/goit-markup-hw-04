@@ -445,6 +445,7 @@ footer{
 }
 
 
+
 .social-media-link{
     list-style: none;
     display: inline-flex;
@@ -550,8 +551,8 @@ footer, .text-footer {
     fill: var(--color-ocean);
     cursor: pointer;
   }
-
-
+  
+/* SVG  */
 .social-svg{
     width: 24px;
     height: 24px;
@@ -566,4 +567,8 @@ footer, .text-footer {
 .container-content{
     display: flex;
     gap: 40px;
+}
+.features-images-svg{
+    width: 264px;
+    height: 112px;
 }
