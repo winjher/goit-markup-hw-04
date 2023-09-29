@@ -459,7 +459,7 @@ footer{
 } */
 
 .social-text-footer,.social-link-footer{
-    display: flex;
+    flex-wrap: wrap;
   }
 .container-footer {
     display: flex;
@@ -555,6 +555,8 @@ footer, .text-footer {
   .social-svg{
     width: 24px;
     height: 24px;
+
     align-items: center;
+
   }
 
