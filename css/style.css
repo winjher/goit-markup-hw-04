@@ -344,7 +344,6 @@ footer{
     padding-top: 8px;
 }
 
-
 .section-ourteam{
     background-color: var(--color-cloud);
 }
@@ -560,7 +559,10 @@ footer, .text-footer {
 
   }
 
-.social-media-list{
+  .social-media-list{
     padding-bottom: 32px;
 }
-
+.container-content{
+    display: flex;
+    gap: 40px;
+}
