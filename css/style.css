@@ -497,8 +497,13 @@ footer, .text-footer {
  }
  a, .footer-link{
     text-align: center;
+
  }
 
+ .company-svg:hover{
+    background-color: var(--color-ocean);
+    cursor: pointer;
+ }
  .social-media-link{
     justify-content: center;
     align-items: center;
@@ -531,7 +536,7 @@ footer, .text-footer {
     justify-content: center;
  }
 
- .client-link-item, .footer-link{
+ .footer-link{
     justify-content: center;
     align-items: center;  
  }
