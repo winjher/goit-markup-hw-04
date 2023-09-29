@@ -551,15 +551,16 @@ footer, .text-footer {
     cursor: pointer;
   }
 
-  .social-svg{
+
+.social-svg{
     width: 24px;
     height: 24px;
-    color: var(--color-cornflower);
+    fill: var(--color-cornflower);
     align-items: center;
 
   }
 
-  .social-media-list{
+.social-media-list{
     padding-bottom: 32px;
 }
 .container-content{
