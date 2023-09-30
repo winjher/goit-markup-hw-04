@@ -571,4 +571,8 @@ footer, .text-footer {
 .features-images-svg{
     width: 264px;
     height: 112px;
+    align-content: center;
+    border-radius: 4px;
+    background: var(--color-cloud);
 }
+
