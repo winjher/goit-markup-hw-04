@@ -556,7 +556,6 @@ footer, .text-footer {
 .social-svg{
     width: 24px;
     height: 24px;
-    fill: var(--color-cornflower);
     align-items: center;
 
   }
