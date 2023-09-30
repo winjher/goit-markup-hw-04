@@ -573,5 +573,14 @@ footer, .text-footer {
     align-items: center;
     border-radius: 4px;
     background: var(--color-cloud);
+.features-images-svg{
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    padding: 40px;
+    border-radius: 4px; 
+    background-color: var(--color-cloud);
 }
-
+.section-features-item{
+    align-items: center;
+}
