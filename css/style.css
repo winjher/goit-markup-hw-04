@@ -549,14 +549,15 @@ footer, .text-footer {
   
 /* SVG  */
 .features-svg-icons{
-    align-items: center;
+    margin-left: 100px;
+    margin-top: 25px;
 }
 
 .social-svg{
     width: 24px;
     height: 24px;
     align-items: center;
-    color: var(--color-cornflower);
+    fill: var(--color-cornflower);
 
   }
 
