@@ -495,11 +495,6 @@ footer, .text-footer {
 
  }
 
- .company-svg:hover{
-    background-color: var(--color-ocean);
-    cursor: pointer;
-    
- }
  .social-media-link{
     justify-content: center;
     align-items: center;
@@ -557,10 +552,21 @@ footer, .text-footer {
     width: 24px;
     height: 24px;
     align-items: center;
-    fill: var(--color-cornflower);
+    fill: var(--color-white);
 
   }
 
+.company-svg{
+    width: 104px;
+    height: 56px;
+    fill: var(--color-navyblue);
+    
+}
+ .company-svg:hover{
+    fill: var(--color-ocean);
+    cursor: pointer;
+    
+ }
 .social-media-list{
     padding-bottom: 32px;
 }
