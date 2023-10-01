@@ -463,9 +463,9 @@ footer{
     display: flex;
     
 }
-footer, .text-footer {
+/* footer, .text-footer {
     display: block;
-}
+} */
 
 
  .footer-link{
@@ -478,11 +478,6 @@ footer, .text-footer {
     border-radius: 50px 50px;
  }
 
-
- a, .footer-link{
-    text-align: center;
-
- }
 
  .social-media-link{
     justify-content: center;
@@ -501,10 +496,6 @@ footer, .text-footer {
  }
 
 
-.client-link-item{
-    fill: var(--color-ocean);
-    cursor: pointer;
-}
 
 .client-link-item{
     border-radius: 4px;
@@ -516,10 +507,6 @@ footer, .text-footer {
     justify-content: center;
  }
 
- .footer-link{
-    justify-content: center;
-    align-items: center;  
- }
 
  .client-link-item:hover{
     border: 1px solid var(--color-ocean);
@@ -548,7 +535,7 @@ footer, .text-footer {
 .company-svg{
     width: 104px;
     height: 56px;
-    fill: var(--color-navyblue);
+    fill: currentColor;
     
 }
  .company-svg:hover{
