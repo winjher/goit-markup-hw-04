@@ -466,18 +466,7 @@ footer{
 footer, .text-footer {
     display: block;
 }
-/* .footer-link {
-    fill:var(--color-cloud);
-    display:inline-block;
-    width:22px;
-    height:22px;
-    vertical-align:middle;
-    text-align : center;
- } */
 
- .social-media-text{
-    margin: 8px;
- }
 
  .footer-link{
     width: 40px;
